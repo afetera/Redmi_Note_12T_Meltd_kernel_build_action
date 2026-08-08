@@ -17,7 +17,7 @@ jobs:
         with:
           kernel-url: https://github.com/afetera/Xiaomi_Kernel_OpenSource
           kernel-branch: marble-s-oss
-          config: marble_consolidate_config
+          config: marble_consolidate_defconfig
           arch: arm64
           #aosp-gcc: true
           #aosp-clang: true
