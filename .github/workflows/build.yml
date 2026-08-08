@@ -19,8 +19,6 @@ jobs:
           kernel-branch: melt-rebase
           config: marble_defconfig
           arch: arm64
-          rekernel: true
-          kvm: true
           #aosp-gcc: true
           #aosp-clang: true
           #ksu: true
