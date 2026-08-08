@@ -28,4 +28,4 @@ jobs:
           #aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
-          extra-make-args: '["LOCALVERSION=-custom", "KBUILD_CFLAGS=-Wno-error"]'
+          extra-make-args: '["KBUILD_CFLAGS=-Wno-error"]'
