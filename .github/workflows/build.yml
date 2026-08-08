@@ -15,9 +15,9 @@ jobs:
       - name: Build Kernel
         uses: afetera/kernel_build_action@main
         with:
-          kernel-url: https://github.com/afetera/Xiaomi_Kernel_OpenSource
-          kernel-branch: marble-s-oss
-          config: marble_consolidate_defconfig
+          kernel-url: https://github.com/afetera/android_kernel_xiaomi_marble
+          kernel-branch: melt-rebase
+          config: marble_defconfig
           arch: arm64
           #aosp-gcc: true
           #aosp-clang: true
