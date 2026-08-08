@@ -16,9 +16,8 @@ jobs:
         uses: afetera/kernel_build_action@main
         with:
           kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource
-          kernel-dir: kernel
           kernel-branch: marble-s-oss
-          config: Kfconfig
+          config: marble_consolidate.config
           arch: arm64
           #aosp-gcc: true
           #aosp-clang: true
