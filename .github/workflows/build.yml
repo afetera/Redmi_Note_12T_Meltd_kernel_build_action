@@ -20,7 +20,7 @@ jobs:
           config: marble_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          #aosp-clang: true
           #ksu: true
           ksu-other: true
           ksu-url: https://github.com/ReSukiSU/ReSukiSU
