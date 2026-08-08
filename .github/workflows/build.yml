@@ -19,6 +19,7 @@ jobs:
           kernel-branch: melt-rebase
           config: marble_defconfig
           arch: arm64
+          aosp-gcc: true
           #aosp-gcc: true
           #aosp-clang: true
           #ksu: true
@@ -28,4 +29,4 @@ jobs:
           #aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
-          extra-make-args: '["KBUILD_CFLAGS=-Wno-error", "CONFIG_JUMP_LABEL=n"]'
+          extra-make-args: '["KBUILD_CFLAGS=-Wno-error"]'
