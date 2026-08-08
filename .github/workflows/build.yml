@@ -20,10 +20,10 @@ jobs:
           kernel-branch: marble-s-oss
           config: Kfconfig
           arch: arm64
-          aosp-gcc: true
+          #aosp-gcc: true
           #aosp-clang: true
-          ksu: true
-          ksu-version: main
+          #ksu: true
+          #ksu-version: main
           android-version: 13
           #aosp-clang-version: r383902
           disable-lto: true
