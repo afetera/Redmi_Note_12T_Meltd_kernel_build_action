@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: afetera/kernel_build_action@main
         with:
-          kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/marble-s-oss
+          kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource
           kernel-dir: kernel
           kernel-branch: marble-s-oss
           config: Kfconfig
